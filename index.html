@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main/css/main.css">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/images/main_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <title>DAWA</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="page-cover">
+
+            <!-- navbar starts -->
+            <div class="nav-bar">
+                <div class="main-nav">
+                    <a href="#" class="no-decoration">
+                        <div class="nav-tab">
+                            <img class="site-logo" src="assets/images/main_logo.png" alt="DAWA site-logo">
+                        </div>
+                    </a>
+    
+                    <div class="nav-tab">
+                        <div class="search-container">
+                            <form class="search-form flex-row">
+                            <select class="category-selection" name="category" id="category" aria-placeholder="All Categories">
+                                <option value="category0">All Categories</option>
+                                <option value="category1">category1</option>
+                                <option value="category2">category2</option>
+                                <option value="category3">category3</option>
+                                <option value="category4">category4</option>
+                            </select>
+    
+                            <input type="text" class="search-input" name="search" id="search" placeholder="Search for products">
+    
+                            <button class="search-button" type="submit">
+                                <img src="assets/images/magnifier.png" alt="search-icon">
+                            </button>
+                        </form>
+                        </div>
+                    </div>
+    
+                    <div class="nav-tab flex-column">
+                        <div class="nav-tab-upperBody ">
+                            <p class="mini-text">
+                                
+                                <i class="fa-solid fa-location-crosshairs main-icon"></i>
+                                Select your location
+                            </p>
+                        </div>
+                        <div class="nav-tab-lowerBody">
+                            <select class="main-selection" name="location" id="location">
+                                <option value="usa">New Yourk</option>
+                                <option value="usa">UK</option>
+                                <option value="usa">USA</option>
+                            </select>
+                        </div>
+                    </div>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-tab ">
+                        
+                            <p class="body1">
+                                <i class="fa-regular fa-heart main-icon"></i>
+                                Whislist
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-tab ">
+                            <img class="main-icon" src="assets/images/cart_icon.png" alt="Cart_icon">
+                            <span></span>
+                            <p class="body1">
+                                Cart
+                            </p>
+                        </div>
+                    </a>
+                    
+                    <div class="nav-tab ">
+                        <a href="#" class="no-decoration login-button">
+                           <img class="main-icon" src="assets/images/user.png" alt="user-icon">
+                            Login
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Pain Relief
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Cold and FLue
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Diabetes Care
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Digestive Health
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                First Aid
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Skin Care
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Child and Baby Car
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Heart Health
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Eye and Ear Care
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="no-decoration">
+                        <div class="nav-link">
+                            <p class="body1">
+                                Respiratory Health                            
+                            
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+              
+            </div>
+
+            <!-- navbar ends -->
+
+            <!-- hero section starts -->
+
+            <div class="hero-section">
+                <button class="custom-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <div class="slider center-row">
+
+
+                    <div class="slide flex-row">
+                        <div class="half-div">
+                            <p class="hero-text">
+                                <span class="medium-text">Dawaa sa mily Gi</span><br>
+                                100% Genuine Dwaai<br>
+                                <span class="medium-text colored-text">Ab Gar Bethey!</span><br>
+                                <span class="medium-text">Order Your Medicines Now</span>
+                            </p>
+                            <br>
+                            <a href="#" class="no-decoration primary-button">Upto 10% OFF</a>
+                        </div>
+                        <div class="half-div bottom-img">
+                            <img class="hero-image" src="assets/images/person2.png" alt="hero-img">
+                        </div>
+                    </div>
+                    <div class="slide flex-row">
+                        <div class="half-div">
+                            <p class="hero-text">
+                                <span class="medium-text">Fast Delivery</span><br>
+                                Get Medicines in Hours<br>
+                                <span class="medium-text colored-text">Anywhere, Anytime!</span><br>
+                                <span class="medium-text">Shop Now</span>
+                            </p>
+                            <br>
+                            <a href="#" class="no-decoration primary-button">Upto 15% OFF</a>
+                        </div>
+                        <div class="half-div bottom-img">
+                            <img class="hero-image" src="assets/images/person2.png" alt="delivery-img">
+                        </div>
+                    </div>
+                    <div class="slide flex-row">
+                        <div class="half-div">
+                            <p class="hero-text">
+                                <span class="medium-text">Trusted Pharmacy</span><br>
+                                Quality You Can Rely On<br>
+                                <span class="medium-text colored-text">Pharmind Cares!</span><br>
+                                <span class="medium-text">Order Today</span>
+                            </p>
+                            <br>
+                            <a href="#" class="no-decoration primary-button">Upto 20% OFF</a>
+                        </div>
+                        <div class="half-div bottom-img">
+                            <img class="hero-image" src="assets/images/person2.png" alt="pharmacy-img">
+                        </div>
+                    </div>
+                </div>
+
+         
+                <button class="custom-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+
+             <!-- hero section ends -->
+
+             <!-- facilities starts here -->
+              <div class="wrap-4x">
+                <div class="fasilities-card">
+                    <div class="icon-container">
+                        <div class="icon-holder">
+                            <img class="facilities-icon" src="assets/images/shield.png" alt="facilities-icon">
+                        </div>
+                    </div>
+                    <div class="facilities-text">
+                        <div class="v-halfDiv center">
+                            <p class="heading">
+                                Secure Payment
+                            </p>
+                        </div>
+                        <div class="v-halfDiv center">
+                            <p class="sub-heading">
+                                All Card Accepted
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="fasilities-card">
+                    <div class="icon-container">
+                        <div class="icon-holder">
+                            <img class="facilities-icon" src="assets/images/question_mark.png" alt="facilities-icon">
+                        </div>
+                    </div>
+                    <div class="facilities-text">
+                        <div class="v-halfDiv center">
+                            <p class="heading">
+                                Online Support
+                            </p>
+                        </div>
+                        <div class="v-halfDiv center">
+                            <p class="sub-heading">
+                                Technical 24/7
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="fasilities-card">
+                    <div class="icon-container">
+                        <div class="icon-holder">
+                            <img class="facilities-icon" src="assets/images/shipping.png" alt="facilities-icon">
+                        </div>
+                    </div>
+                    <div class="facilities-text">
+                        <div class="v-halfDiv center">
+                            <p class="heading">
+                                Free Shipping
+                            </p>
+                        </div>
+                        <div class="v-halfDiv center">
+                            <p class="sub-heading">
+                                On All Order
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="fasilities-card">
+                    <div class="icon-container">
+                        <div class="icon-holder">
+                            <img class="facilities-icon" src="assets/images/percentage.png" alt="facilities-icon">
+                        </div>
+                    </div>
+                    <div class="facilities-text">
+                        <div class="v-halfDiv center">
+                            <p class="heading">
+                                Discount online
+                            </p>
+                        </div>
+                        <div class="v-halfDiv center">
+                            <p class="sub-heading">
+                                Sale Weekends
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+              </div>
+             <!-- facilities starts here -->
+
+             <!-- best for you  -->
+              <div class="container ">
+                <div class="devider">
+                    <div class="half-div">
+                        <p class="large-text bottom" style="color: black;;">
+                            Today Best Deal 
+                            <span class="colored-text">For You!</span>
+                        </p>
+                    </div>
+                    <div class="half-div bottom-right">
+                        <a href="#" class="no-decoration colored-text link">
+                            See all products <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="devider">
+
+                    <div class="grid-4x produts">
+                     
+                        <div class="produts-card">
+                            <div class="product-imgContainer">
+                                <div class="sale-container">
+                                    <div class="sale">
+                                        <p>
+                                            20%
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="product-imgHolder">
+                                    <img class="product-image" src="assets/images/Glucophage.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Glucophage (500mg) 50 Tablets Loremipsum
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="produts-card">
+                            <div class="product-imgContainer">
+                                <div class="sale-container">
+                                    <div class="sale">
+                                        <p>
+                                            20%
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="product-imgHolder">
+                                    <img class="product-image" src="assets/images/md2.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Ansaid (100mg) 30 Tablets
+                                    In-Stock
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="produts-card">
+                            <div class="product-imgContainer">
+                                <div class="sale-container">
+                                    <div class="sale">
+                                        <p>
+                                            20%
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="product-imgHolder">
+                                    <img class="product-image" src="assets/images/md3.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Sunny D Stat (200000IU) 1  Softgel Capsule
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="produts-card">
+                            <div class="product-imgContainer">
+                                <div class="sale-container">
+                                    <div class="sale">
+                                        <p>
+                                            20%
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="product-imgHolder">
+                                    <img class="product-image" src="assets/images/md4.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Arinac Forte (400/60mg) 100 
+                                    Tablets
+
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+                
+              </div>
+
+
+            <!-- best for you  -->
+
+
+             <!-- featured brands -->
+             <div class="container ">
+                <div class="devider">
+                    <div class="half-div new-half-div">
+                        <p class="large-text " style="color: black;;">
+                            Featured  
+                            <span class="colored-text">Brand</span>
+                        </p>
+                    </div>
+                    <div class="half-div new-half-div bottom-right">
+                        <a href="#" class="no-decoration colored-text link">
+                            See all  <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="devider">
+
+                    <div class="grid-6x brands">
+                      
+                        <div class="brands-card">
+                            <div class="brands-holder">
+                                <img src="assets/images/b1.png" alt="brand">
+                            </div>
+                            <p class="brand-name">
+                                Pfizer
+                            </p>
+                        </div>
+
+                        <div class="brands-card">
+                            <div class="brands-holder">
+                                <img src="assets/images/b2.png" alt="brand">
+                            </div>
+                            <p class="brand-name">
+                                Novartis
+                            </p>
+                        </div>
+
+                        <div class="brands-card">
+                            <div class="brands-holder">
+                                <img src="assets/images/b3.png" alt="brand">
+                            </div>
+                            <p class="brand-name">
+                                Sanofi
+                            </p>
+                        </div>
+
+                        <div class="brands-card">
+                            <div class="brands-holder">
+                                <img src="assets/images/b4.png" alt="brand">
+                            </div>
+                            <p class="brand-name">
+                                AstraZeneca
+                            </p>
+                        </div>
+
+                        <div class="brands-card">
+                            <div class="brands-holder">
+                                <img src="assets/images/b5.png" alt="brand">
+                            </div>
+                            <p class="brand-name">
+                                AbbVie
+                            </p>
+                        </div>
+
+                        <div class="brands-card">
+                            <div class="brands-holder">
+                                <img src="assets/images/b6.png" alt="brand">
+                            </div>
+                            <p class="brand-name">
+                                Panadol
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+                
+              </div>
+
+
+            <!-- featured brands -->
+
+             <!-- featured products -->
+             <div class="container ">
+                <div class="devider">
+                    <div class="half-div new-half-div">
+                        <p class="large-text " style="color: black;;">
+                            Featured  
+                            <span class="colored-text">Brand</span>
+                        </p>
+                    </div>
+                    <div class="half-div new-half-div bottom-right">
+                        <a href="#" class="no-decoration colored-text link">
+                            See all products <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="devider">
+
+                    <div class="grid-4x produts">
+                     
+                        <div class="produts-card">
+                            <div class="product-imgContainer center">
+
+                                <div class="product-imgHolder ">
+                                    <img class="product-image" src="assets/images/fp1.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Glucophage (500mg) 50 Tablets Loremipsum
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="produts-card">
+                            <div class="product-imgContainer center">
+
+                                <div class="product-imgHolder ">
+                                    <img class="product-image" src="assets/images/fp2.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Ansaid (100mg) 30 Tablets
+                                    In-Stock
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="produts-card">
+                            <div class="product-imgContainer center">
+
+                                <div class="product-imgHolder ">
+                                    <img class="product-image" src="assets/images/fp3.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Sunny D Stat (200000IU) 1  Softgel Capsule
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="produts-card">
+                            <div class="product-imgContainer center">
+
+                                <div class="product-imgHolder ">
+                                    <img class="product-image" src="assets/images/fp4.png" alt="medicine-image">
+                                </div>
+                            </div>
+                            <div class="ratings-container">
+                            
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+
+                            <div class="product-name">
+                                <p>
+                                    Arinac Forte (400/60mg) 100 
+                                    Tablets
+
+                                </p>
+                            </div>
+                            <div class="price-holder">
+                                <p class="new-price">
+                                    RS. 500.0
+                                </p>
+                                <p class="price">
+                                    RS. 1500.0
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+                
+              </div>
+
+
+            <!-- featured products -->
+
+            <!-- hot offers -->
+              <div class="container offer-container">
+                    <div class="offer-holder">
+                        <div class="todays-offer center">
+                            <p>
+                                Todays Hot Offer
+                            </p>
+                        </div>
+                        <p class="large-text" style="width: 100%;color: #3E3E3E;">
+                            Unlock 50% Off on Essential Medicines!
+                        </p>
+                        <p class="medium-text2">
+                            Embrance wellness without breaking the bank! Enjoy a generous 25% discount on a wide range of vital medicines at our online pharmacy. Your helath matters, and so does your budget.
+                        </p>
+                    </div>
+                    <div class="offer-img">
+                        <img src="assets/images/md7.png" alt="">
+                    </div>
+              </div>
+            <!-- hot offers -->
+
+            <!-- .medical-info -->
+
+            <div class="container info-container">
+                <div class="half-div">
+                    <img src="assets/images/medical_info1.png" alt="medical-info">
+                </div>
+                <div class="half-div">
+                    <img src="assets/images/medical_info2.png" alt="medical-info">
+                </div>
+            </div>
+
+            <!-- .medical-info -->
+
+            <!-- client ratings -->
+
+            <div class="container ">
+                <div class="devider">
+                    <div class="half-div new-half-div">
+                        <p class="large-text full-width" style="color: black;;">
+                            What Our  
+                            <span class="colored-text">Client Say</span>
+                        </p>
+                    </div>
+                    <div class="half-div new-half-div bottom-right">
+                        <a href="#" class="no-decoration colored-text link">
+                            See All  <img src="assets/images/arrow.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="devider">
+
+                    <div class="grid-4x extanded-gap">
+
+
+                     <div class="comment-card">
+                        <div class="user-info flex-row ">
+                            <div class="user-img-holder center">
+                                <img class="user-img" src="assets/images/c1.png" alt="user">
+                            </div>
+                            <div class="user-bio">
+                                <div class="user-name-holder">
+                                    <p class="font-bold">Liam</p>
+                                    <span  class="font-regular">23 March 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ratings-holder">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="the-comment">
+                            <p class="font-regular">
+                                Lorem ipsum dolor sit amet consectetur. 
+                                Eget id id interdum pharetra. Hendrerit 
+                                fringilla bibendum ac ac leo. Mattis in 
+                                a morbi nunc pharetra dignissim id at venenatis. 
+                                Elementum diam pharetra dictum justo quam lectus sodales.
+                                
+                            </p>
+                        </div>
+                     </div>
+  
+
+                        
+                     <div class="comment-card">
+                        <div class="user-info flex-row ">
+                            <div class="user-img-holder center">
+                                <img class="user-img" src="assets/images/c2.png" alt="user">
+                            </div>
+                            <div class="user-bio">
+                                <div class="user-name-holder">
+                                    <p class="font-bold">Noah</p>
+                                    <span  class="font-regular">23 March 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ratings-holder">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="the-comment">
+                            <p class="font-regular">
+                                Lorem ipsum dolor sit amet consectetur. 
+                                Eget id id interdum pharetra. Hendrerit 
+                                fringilla bibendum ac ac leo. Mattis in 
+                                a morbi nunc pharetra dignissim id at venenatis. 
+                                Elementum diam pharetra dictum justo quam lectus sodales.
+                                
+                            </p>
+                        </div>
+                     </div>
+  
+
+                        
+                     <div class="comment-card">
+                        <div class="user-info flex-row ">
+                            <div class="user-img-holder center">
+                                <img class="user-img" src="assets/images/c3.png" alt="user">
+                            </div>
+                            <div class="user-bio">
+                                <div class="user-name-holder">
+                                    <p class="font-bold">Liam</p>
+                                    <span  class="font-regular">23 March 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ratings-holder">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="the-comment">
+                            <p class="font-regular">
+                                Lorem ipsum dolor sit amet consectetur. 
+                                Eget id id interdum pharetra. Hendrerit 
+                                fringilla bibendum ac ac leo. Mattis in 
+                                a morbi nunc pharetra dignissim id at venenatis. 
+                                Elementum diam pharetra dictum justo quam lectus sodales.
+                                
+                            </p>
+                        </div>
+                     </div>
+  
+
+                        
+                     <div class="comment-card">
+                        <div class="user-info flex-row ">
+                            <div class="user-img-holder center">
+                                <img class="user-img" src="assets/images/c4.png" alt="user">
+                            </div>
+                            <div class="user-bio">
+                                <div class="user-name-holder">
+                                    <p class="font-bold">Robert</p>
+                                    <span  class="font-regular">23 March 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ratings-holder">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="the-comment">
+                            <p class="font-regular">
+                                Lorem ipsum dolor sit amet consectetur. 
+                                Eget id id interdum pharetra. Hendrerit 
+                                fringilla bibendum ac ac leo. Mattis in 
+                                a morbi nunc pharetra dignissim id at venenatis. 
+                                Elementum diam pharetra dictum justo quam lectus sodales.
+                                
+                            </p>
+                        </div>
+                     </div>
+  
+
+                    </div>
+
+                </div>
+
+                
+                
+              </div>
+
+            <!-- client ratings -->
+
+            <!-- blogs -->
+
+            <div class="container ">
+                <div class="devider">
+                    <div class="half-div new-half-div">
+                        <p class="large-text full-width" style="color: black;;">
+                            Our Latest  
+                            <span class="colored-text">News & Blogs</span>
+                        </p>
+                    </div>
+                    <div class="half-div new-half-div bottom-right">
+                        <a href="#" class="no-decoration colored-text link">
+                            See All  <img src="assets/images/arrow.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="devider">
+                    <div class="half-div blog-wrapper">
+  
+                            <div class="blog">
+                                <div class="blog-cover-holder">
+                                    <img class="blog-cover" src="assets/images/blog_cover.png" alt="blog-cover">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="date-posted">
+                                        <div class="topic-holder center">
+                                            <p class="font-small cabin-black">
+                                                Health
+                                            </p>
+                                        </div>
+                                        <div class="date-holder">
+                                            <img class="small-icon" src="assets/images/Callander_icon.png" alt="Callander_icon">
+                                            <p class="font-small cabin-light">
+                                                08 June 2024
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="blog-title-holder">
+                                        <p class="title">
+                                            Reassessing the Health Star Rating: 
+                                            New study highlights need for 
+                                            ultra-processed food adjustments
+                                        </p>
+                                    </div>
+                                    <div class="blog-desc">
+                                        <p class="medium-text3">
+                                            Lorem ipsum dolor sit amet, 
+                                            consectetur adipiscing elit. 
+                                            Mauris neque eros, scelerisque 
+                                            sed mauris in, venenatis vehicula 
+                                            felis. In aliquet fermentum 
+                                        </p>
+                                    </div>
+                                    <div class="cta">
+                                        <a href="#" class="no-decoration trans-button ">
+                                            Read More
+                                        </a>
+                                    </div>
+
+                                </div>
+                             
+                            </div>
+                
+
+                    </div>
+                    <div class="half-div blog-list-holder ">
+
+                        <div class="blog-list-card">
+                            <div class="blog-img-holder">
+                                <img class="blog-img" src="assets/images/blog1.png" alt="blog-img">
+                            </div>
+                            <div class="blog-info">
+                                <div class="date-posted">
+                                    <div class="topic-holder center">
+                                        <p class="font-small cabin-black">
+                                            Health
+                                        </p>
+                                    </div>
+                                    <div class="date-holder">
+                                        <img class="small-icon" src="assets/images/Callander_icon.png" alt="Callander_icon">
+                                        <p class="font-small cabin-light">
+                                            08 June 2024
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="blog-title">
+                                    <p class="heading-bold">
+                                        Gut microbe metabolite found to modulate 
+                                        heart disease risk through β2-adrenergic re...
+                                    </p>
+                                </div>
+                                <div class="blog-desc">
+                                    <p class="font-tiny">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque eros, scelerisque sed mauris 
+                                        in, venenatis vehicula felis. In aliquet fermentum 
+                                    </p>
+                                </div>
+                                <div class="cta">
+                                    <a href="#" class="no-decoration trans-button ">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-list-card">
+                            <div class="blog-img-holder">
+                                <img class="blog-img" src="assets/images/blog2.png" alt="blog-img">
+                            </div>
+                            <div class="blog-info">
+                                <div class="date-posted">
+                                    <div class="topic-holder center">
+                                        <p class="font-small cabin-black">
+                                            Health
+                                        </p>
+                                    </div>
+                                    <div class="date-holder">
+                                        <img class="small-icon" src="assets/images/Callander_icon.png" alt="Callander_icon">
+                                        <p class="font-small cabin-light">
+                                            08 June 2024
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="blog-title">
+                                    <p class="heading-bold">
+                                        Improved IVF success with the Mediterranean diet, study shows
+                                    </p>
+                                </div>
+                                <div class="blog-desc">
+                                    <p class="font-tiny">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque eros, scelerisque sed mauris 
+                                        in, venenatis vehicula felis. In aliquet fermentum 
+                                    </p>
+                                </div>
+                                <div class="cta">
+                                    <a href="#" class="no-decoration trans-button ">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-list-card">
+                            <div class="blog-img-holder">
+                                <img class="blog-img" src="assets/images/blog3.png" alt="blog-img">
+                            </div>
+                            <div class="blog-info">
+                                <div class="date-posted">
+                                    <div class="topic-holder center">
+                                        <p class="font-small cabin-black">
+                                            Health
+                                        </p>
+                                    </div>
+                                    <div class="date-holder">
+                                        <img class="small-icon" src="assets/images/Callander_icon.png" alt="Callander_icon">
+                                        <p class="font-small cabin-light">
+                                            08 June 2024
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="blog-title">
+                                    <p class="heading-bold">
+                                        The new covid vaccine is out. Why you might not want to rush to get it.
+                                    </p>
+                                </div>
+                                <div class="blog-desc">
+                                    <p class="font-tiny">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque eros, scelerisque sed mauris 
+                                        in, venenatis vehicula felis. In aliquet fermentum 
+                                    </p>
+                                </div>
+                                <div class="cta">
+                                    <a href="#" class="no-decoration trans-button ">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            <!-- blogs -->
+
+            <!-- app download link -->
+             <div class="container">
+                <div class="banner">
+                    <div class="banner-text-holder">
+                        <p class="font-bold2">
+                            Download Our Dawaa App For Easy Access
+                        </p>
+                        <span class="font-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris neque eros, 
+                            scelerisque sed mauris in, venenatis vehicula felis. In aliquet fermentum 
+                        </span>
+                    </div>
+                    <div class="banner-links">
+                        <a href="#" class="no-decoration">
+                            <img src="assets/images/playstore.png" alt="app-link">
+                        </a>
+                      
+                        <a href="#" class="no-decoration">
+                            <img src="assets/images/appstore.png" alt="app-link">
+                        </a>
+         
+                    </div>
+                </div>
+             </div>
+            <!-- app download link -->
+
+            <!-- Q&A -->
+             <div class="container">
+                <div class="devider center">
+                    <p class="large-text " style="color: black;;">
+                        We’ve answered all   
+                        <span class="colored-text">Your Question</span>
+                    </p>
+                </div>
+                <div class="devider">
+                    <div class="accordians-holder">
+                        <button class="accordian">
+                            <p class="medium-text3 cabin-light">
+                                How do I start online consultation with pharmacist on Pharmind                            </p>
+                            <span class="medium-text3 cabin-light">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                        </button>
+                        <div class="answers-holder">
+                            <p class="medium-text3">
+                                Embrance wellness without breaking the bank! Enjoy a generous 25% discount on a wide range of vital medicines at our online pharmacy. Your helath matters, and so does your budget.
+                            </p>
+                        </div>
+                        <button class="accordian">
+                            <p class="medium-text3 cabin-light">
+                                Are your online pharmacist qualified?                            <span class="medium-text3 cabin-light">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                        </button>
+                        <div class="answers-holder">
+                            <p class="medium-text3">
+                                Embrance wellness without breaking the bank! Enjoy a generous 25% discount on a wide range of vital medicines at our online pharmacy. Your helath matters, and so does your budget.
+                            </p>
+                        </div>
+                        <button class="accordian">
+                            <p class="medium-text3 cabin-light">
+                                Can purchased medicines be sent via online delivery?                            </p>
+                            <span class="medium-text3 cabin-light">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                        </button>
+                        <div class="answers-holder">
+                            <p class="medium-text3">
+                                Embrance wellness without breaking the bank! Enjoy a generous 25% discount on a wide range of vital medicines at our online pharmacy. Your helath matters, and so does your budget.
+                            </p>
+                        </div>
+                        <button class="accordian">
+                            <p class="medium-text3 cabin-light">
+                                What to do if the medication given by the pharmacist does not match?                            </p>
+                            <span class="medium-text3 cabin-light">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                        </button>
+                        <div class="answers-holder">
+                            <p class="medium-text3">
+                                Embrance wellness without breaking the bank! Enjoy a generous 25% discount on a wide range of vital medicines at our online pharmacy. Your helath matters, and so does your budget.
+                            </p>
+                        </div>
+                        <button class="accordian">
+                            <p class="medium-text3 cabin-light">
+                                Can payments be made by debit or credit?                            </p>
+                            <span class="medium-text3 cabin-light">
+                                <i class="fa-sharp fa-solid fa-angle-down"></i>
+                            </span>
+                        </button>
+                        <div class="answers-holder">
+                            <p class="medium-text3">
+                                Embrance wellness without breaking the bank! Enjoy a generous 25% discount on a wide range of vital medicines at our online pharmacy. Your helath matters, and so does your budget.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- Q&A -->
+
+            <!-- footer -->
+             <div class="footer-container">
+                <div class="footer">
+                    <div class="tab">
+                        <div class="grid-4x">
+                            
+                            <div class="footer-card">
+                                <img class="footer-logo" src="assets/images/footer_logo.png" alt="footer-logo">
+                                <p class="font-tiny color-white" >
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at congue risus. 
+                                    Sed commodo dapibus urna eget malesuada. Suspendisse sed lectus ex. 
+                                </p>
+                            </div>
+
+                            <div class="footer-card">
+                                <p class="footer-card-title">
+                                    Company
+                                </p>
+                                <a href="#" class="no-decoration page-title">
+                                    What's New
+                                </a>
+                                <a href="#" class="no-decoration page-title">
+                                    About
+                                </a>
+                                <a href="#" class="no-decoration page-title">
+                                    Blog
+                                </a>
+                                <a href="#" class="no-decoration page-title">
+                                    Careers
+                                </a>
+                            </div>
+
+                            <div class="footer-card">
+                                <p class="footer-card-title">
+                                    Support
+                                </p>
+                                <a href="#" class="no-decoration page-title">
+                                    Help Topics
+
+
+
+                                </a>
+                                <a href="#" class="no-decoration page-title">
+                                    Getting Started
+                                </a>
+                                <a href="#" class="no-decoration page-title">
+                                    Features
+                                </a>
+                                <a href="#" class="no-decoration page-title">
+                                    FAQ
+                                </a>
+                            </div>
+
+                            <div class="footer-card">
+                                <p class="footer-card-title">
+                                    Contact Us
+                                </p>
+                                <a href="tel:+06323839204" class="no-decoration page-title">
+                                    <img src="assets/images/phone.png" alt="phone">
+                                    +06323839204
+                                </a>
+                                <a href="tel:+06378010848" class="no-decoration page-title">
+                                    <img src="assets/images/phone.png" alt="phone">
+                                    +06378010848
+                                </a>
+                                <p class="footer-card-title">
+                                    Social Media
+                                </p>
+                                <div class="social-icons">
+                                    <a href="#" class="no-decoration">
+                                        <div class="footer-icon">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </div> 
+                                    </a>
+                                    <a href="#" class="no-decoration">
+                                        <div class="footer-icon">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </div> 
+                                    </a>
+                                    <a href="#" class="no-decoration">
+                                        <div class="footer-icon">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </div> 
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab space-between flex-row">
+                        <div class="tab">
+                            <p class="page-title">
+                                © getdawaa.com.com. All rights reserved
+                            </p>
+                        </div>
+                        <div class="tab flex-row space-between bottom-tab">
+                            <a href="#" class="page-title no-decoration">
+                                Term & Condition
+                            </a>
+                            <a href="#" class="page-title no-decoration">
+                                Privacy Policy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- footer -->
+        </div>
+    </div>
+
+
+    
+<script>
+    var acc = document.getElementsByClassName("accordian");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            dots: false,
+            arrows: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 3000,
+            adaptiveHeight: true,
+            prevArrow: $('.custom-prev'), // Custom previous button
+            nextArrow: $('.custom-next')  // Custom next button
+        });
+    });
+</script>
+</body>
+</html>
